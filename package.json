@@ -1,6 +1,6 @@
 {
   "name": "run-sql-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Script that'll read a SQL file and run the query in the specified db",
   "main": "index.js",
   "bin": {
