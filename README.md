@@ -1,5 +1,5 @@
 # node-run-sql
-Script that'll read a SQL file and run the query in the specified db
+CLI tool that reads a SQL file and runs the query in a specified db
 
 ## Installation
 Install this package by running `$ npm install -g run-sql-cli`
@@ -7,22 +7,24 @@ Install this package by running `$ npm install -g run-sql-cli`
 ## Usage
 `$ run-sql <file> [options]`
 
-f.e.: `$ run-sql ./schema.sql --user=root --password=root --database=my_db`
+f.e.:  
+`$ run-sql ./schema.sql --user=root --password=root --database=my_db`
 
 ### Options:
 
-  --host [optional]        The hostname of the database you are connecting to.
-  --port [optional]        The port number to connect to.
-  --user <required>        The MySQL user to authenticate as.
-  --password <required>    The password of that MySQL user.
-  --socketPath [optional]  The path to a unix domain socket to connect to. When used host and port are ignored.
-  --database <required>    Name of the database to use for this connection
+  --host [optional]        The hostname of the database you are connecting to.  
+  --port [optional]        The port number to connect to.  
+  --user <required>        The MySQL user to authenticate as.  
+  --password <required>    The password of that MySQL user.  
+  --socketPath [optional]  The path to a unix domain socket to connect to. When used host and port are ignored.  
+  --database <required>    Name of the database to use for this connection  
 
-  -V, --version            output the version number
-  -h, --help               output usage information
+  -V, --version            output the version number  
+  -h, --help               output usage information  
 
 ## History
 
+Version 1.0.1 (2017-10-06) - Update the readme
 Version 1.0.0 (2017-10-06) - First Version launched
 
 ## License
